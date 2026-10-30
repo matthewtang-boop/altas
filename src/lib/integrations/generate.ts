@@ -133,7 +133,7 @@ export async function generateForPurpose(
   const result = await geminiGenerateText(apiKey, [{ text: prompt }], {
     temperature: 0.7,
     maxOutputTokens: 2048,
-    // gemini-2.5-flash is a thinking model; without this the hidden thinking tokens
+    // gemini-3.8-flash is a thinking model; without this the hidden thinking tokens
     // eat the output budget and truncate the post mid-sentence. (Same fix as picks.ts.)
     thinkingConfig: { thinkingBudget: 0 },
   });

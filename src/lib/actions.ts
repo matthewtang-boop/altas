@@ -581,7 +581,7 @@ export async function grabScriptsAction(
       post_id: post.id,
       caption,
       transcript: result.transcript,
-      model: "gemini-2.5-flash",
+      model: "gemini-3.8-flash",
     });
   }
 
@@ -794,7 +794,7 @@ export async function generateOutputAction(
               post_id: post.id,
               caption,
               transcript,
-              model: "gemini-2.5-flash",
+              model: "gemini-3.8-flash",
             });
           }
         }
@@ -818,7 +818,7 @@ export async function generateOutputAction(
       post_id: post.id,
       kind,
       content: result.content,
-      model: "gemini-2.5-flash",
+      model: "gemini-3.8-flash",
     });
   }
 

@@ -1,4 +1,4 @@
-export const GEMINI_TEXT_MODEL = "gemini-2.5-flash";
+export const GEMINI_TEXT_MODEL = "gemini-3.8-flash";
 
 type GeminiPart =
   | { text: string }

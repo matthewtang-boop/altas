@@ -1,4 +1,4 @@
-const GEMINI_MODEL = "gemini-2.5-flash";
+const GEMINI_MODEL = "gemini-3.8-flash";
 const MAX_VIDEO_BYTES = 18 * 1024 * 1024; // inline request cap (~20MB total)
 
 const TRANSCRIBE_PROMPT =
